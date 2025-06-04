@@ -1,0 +1,13 @@
+# Menjalankan skrip
+python main.py
+
+# Menjalankan unit test pada folder tests
+python -m unittest discover test/
+
+# Menjalankan test coverage pada folder tests
+coverage run -m unittest discover test/
+
+# Untuk melihat laporan coverage di terminal
+coverage report
+
+
